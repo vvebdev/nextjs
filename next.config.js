@@ -7,9 +7,9 @@ const nextConfig = {
   // },
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/',
   },
-  basePath: '/vvebdev-nextjs',
+  // basePath: '/vvebdev-nextjs',
   // basePath: '/nextjs-pages',
   // assetPrefix: '/nextjs-pages',
 };
