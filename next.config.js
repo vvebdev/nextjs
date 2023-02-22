@@ -9,8 +9,9 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-  basePath: '/nextjs-pages',
-  assetPrefix: '/nextjs-pages',
+  basePath: '/vvebdev-nextjs',
+  // basePath: '/nextjs-pages',
+  // assetPrefix: '/nextjs-pages',
 };
 
 module.exports = nextConfig;
