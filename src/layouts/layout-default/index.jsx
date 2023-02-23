@@ -13,7 +13,7 @@ export default function LayoutDefault({ title, description, children }) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         />
-        <link rel="icon" href="/vvebdev-nextjs/favicon.ico" />
+        <link rel="icon" href="/nextjs/favicon.ico" />
       </Head>
       <main className='layout-default'>
         {children}

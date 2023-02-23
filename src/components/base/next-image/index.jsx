@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function NextImage({src, alt}) {
   return (
     <Image
-      src={`/vvebdev-nextjs/${src}`}
+      src={`/nextjs/${src}`}
       alt={alt}
       width={100}
       height={24}
