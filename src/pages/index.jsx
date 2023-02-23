@@ -2,7 +2,7 @@ import NextImage from '@/components/base/next-image';
 import LayoutDefault from '@/layouts/layout-default';
 import Link from 'next/link'
 import Button from '@/components/ui/button';
-import Input from '@/components/ui/Input';
+import Input from '@/components/ui/input';
 
 export default function HomePage() {
   return (
