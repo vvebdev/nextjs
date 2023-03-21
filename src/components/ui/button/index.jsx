@@ -4,7 +4,6 @@ export default function Button () {
   return (
     <button className={styles.button}>
       <span>i am button</span>
-      <span>--</span>
     </button>
   );
 }
