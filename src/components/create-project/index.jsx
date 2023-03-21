@@ -8,10 +8,10 @@ const Wrapper = styled.main`
   border-radius: 6px;
   background-color: lightblue;
 `;
-const LeftWindow = styled.main`
+const LeftWindow = styled.section`
   background-color: #fff;
 `;
-const RightWindow = styled.main`
+const RightWindow = styled.section`
   background-color: #fff;
 `;
 const Image = styled.img`
@@ -29,26 +29,14 @@ export default function CreateProject () {
   return (
     <Wrapper>
       <LeftWindow>
-        <Image src="https://source.unsplash.com/random/600x800" alt="" />
+        <Image src="https://source.unsplash.com/random/600x800" alt="project image" />
       </LeftWindow>
       <RightWindow>
-        <header>
-          header
-        </header>
-        <hr />
-        <br />
-        <br />
         <Form>
-          <input type="text" name="" id="" required placeholder='name' />
-          <input type="email" name="" id="" required placeholder='email' />
+          <input type="text" name="name" placeholder='name' required />
+          <input type="email" name="emal" placeholder='email' required />
           <button type="submit">submit</button>
         </Form>
-        <br />
-        <br />
-        <hr />
-        <footer>
-          footer
-        </footer>
       </RightWindow>
     </Wrapper>
   );

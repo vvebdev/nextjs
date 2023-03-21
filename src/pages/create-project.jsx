@@ -10,9 +10,6 @@ export default function CreateProjectPage() {
       <br />
       <br />
       <CreateProject />
-      <br />
-      <br />
-      <NextImage src={"vercel.svg"} alt={"Vercel Logo"} />
     </LayoutEmpty>
   );
 }
