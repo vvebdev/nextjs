@@ -21,11 +21,7 @@ export default function LayoutDefault({
         />
         <link rel="icon" href="/nextjs/favicon.ico" />
       </Head>
-      <header>header</header>
-      <hr />
       <Main>{children}</Main>
-      <hr />
-      <footer>footer</footer>
     </>
   );
 }

@@ -1,5 +1,7 @@
+import styles from './style.module.css'
+
 export default function Input() {
   return (
-    <input type="text" />
+    <input className={styles.input} type="text" />
   );
 }

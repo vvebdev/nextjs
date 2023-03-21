@@ -1,7 +1,10 @@
-export default function Button() {
+import styles from './style.module.css'
+
+export default function Button () {
   return (
-    <button>
-      i am button
+    <button className={styles.button}>
+      <span>i am button</span>
+      <span>--</span>
     </button>
   );
 }
