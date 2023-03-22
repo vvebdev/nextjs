@@ -25,6 +25,7 @@ export default function HomePage() {
 
   setTimeout(() => {
     inputRef.current?.focus();
+    inputRef.current?.click();
   }, 1000)
 
   return (
