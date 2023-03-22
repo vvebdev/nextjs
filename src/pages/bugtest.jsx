@@ -33,7 +33,7 @@ export default function HomePage() {
       <Inner>
         <br />
         <br />
-        <input type="text" ref={inputRef} />
+        <input type="text" ref={inputRef} inputMode="numeric" />
         <br />
         <br />
         <button>i am button</button>
