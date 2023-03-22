@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 const Wrapper = styled.main`
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: fill-available;
   background: tomato;
   padding: 16px;
 `;
@@ -12,7 +15,7 @@ const Inner = styled.main`
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  height: fill-available;
+  height: 100%;
   background-color: lightblue;
 `;
 
@@ -25,7 +28,10 @@ export default function HomePage() {
         <input type="text" inputMode="numeric" />
         <br />
         <br />
-        <button>i am button</button>
+        <button>fill-available</button>
+        <br />
+        <br />
+        <br />
       </Inner>
     </Wrapper>
   );
