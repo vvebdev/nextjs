@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const Wrapper = styled.main`
   position: fixed;
   inset: 0;
+  background: tomato;
   padding: 16px;
 `;
 
