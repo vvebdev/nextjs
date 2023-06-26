@@ -2,11 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'akamai',
-    path: '/',
+    loader: "custom",
+    loaderFile: "utils/image-loader.js",
   },
-  basePath: '/nextjs',
-  assetPrefix: '/nextjs',
+  basePath: "/nextjs",
+  assetPrefix: "/nextjs",
 };
 
 module.exports = nextConfig;
