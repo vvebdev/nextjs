@@ -9,7 +9,7 @@ export default function AboutPage() {
       <br />
       <br />
       <div>
-        <Link href="/">to main</Link>
+        <Link href={{pathname: '/'}}>to main</Link>
       </div>
     </>
   )
