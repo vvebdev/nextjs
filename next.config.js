@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  // reactStrictMode: true,
+  reactStrictMode: true,
+  trailingSlash: true,
   images: {
     loader: "custom",
     loaderFile: "utils/image-loader.ts",
