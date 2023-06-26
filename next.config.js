@@ -6,8 +6,8 @@ const nextConfig = {
     loader: "custom",
     loaderFile: "utils/image-loader.ts",
   },
-  basePath: "/nextjs",
-  assetPrefix: "/nextjs",
+  basePath: "/nextjs/",
+  assetPrefix: "/nextjs/",
 };
 
 module.exports = nextConfig;
